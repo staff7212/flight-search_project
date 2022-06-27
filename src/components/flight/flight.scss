@@ -1,0 +1,73 @@
+
+.flight {
+  padding: 10px 10px;
+  &-route {
+    display: flex;
+    border-bottom: 2px solid rgb(224, 224, 224);
+    padding: 0 10px 8px 10px;
+    &__departure {
+      font-size: 18px;
+      span {
+        color: rgb(38,115,189);
+      }
+    }
+    &__divider {
+      color: rgb(38,115,189);
+      padding: 0 5px;
+    }
+    &__arrival {
+      font-size: 18px;
+      span {
+        color: rgb(38,115,189);
+      }
+    }
+  }
+  &-date {
+    display: flex;
+    padding: 10px 10px 0 10px;
+    justify-content: space-between;
+    &__departure {
+      font-size: 18px;
+      span {
+        font-size: 14px;
+        color: rgb(38,115,189);
+      }
+    }
+    &__total-time {
+      display: flex;
+      align-items: center;
+      .total-time {
+        padding-left: 5px;
+      }
+    }
+    &__arrival {
+      font-size: 18px;
+      span {
+        font-size: 14px;
+        color: rgb(38,115,189);
+      }
+    }
+  }
+  &-transfer {
+    position: relative;
+    padding: 10px 0;
+    &-divider {
+      margin: 5px auto;
+      height: 1px;
+      width: 80%;
+      background: rgb(170, 170, 170);
+    }
+    &__amount {
+      position: absolute;
+      background: #fff;
+      padding: 0 8px;
+      color: rgb(242,161,84);
+      left: 50%;
+      bottom: 50%;
+      transform: translate(-50%, 35%);
+    }
+  }
+  &-carrier {
+    padding-left: 10px;
+  }
+}

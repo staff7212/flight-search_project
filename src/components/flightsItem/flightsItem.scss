@@ -1,0 +1,41 @@
+
+.flights-item {
+  margin-bottom: 30px;
+  &__header {
+    display: flex;
+    padding: 5px 12px;
+    background: rgb(38,115,189);
+    color: #fff;
+    justify-content: space-between;
+  }
+  &__price {
+    &__sum {
+      text-align: end;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    &__title {
+      font-size: 10px;
+      font-weight: bold;
+    }
+  }
+  &__divider {
+    width: 100%;
+    height: 3px;
+    background: rgb(38,115,189);
+  }
+  &__btn {
+    margin-top: 10px;
+    width: 100%;
+    height: 35px;
+    border: none;
+    background: rgb(242,161,84);
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    &:hover {
+      background: rgb(237, 155, 78);
+    }
+  }
+}

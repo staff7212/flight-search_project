@@ -1,0 +1,39 @@
+
+.setting {
+  &-panel {
+    &__wrapper {
+      position: sticky;
+      top: 30px;
+    }
+  }
+  &__titles {
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+}
+.sort {
+  margin-bottom: 30px;
+}
+.filter {
+  margin-bottom: 30px;
+}
+.price {
+  margin-bottom: 30px;
+  &>*+* {
+    margin-top: 10px;
+  }
+}
+.airlines {
+  &__row {
+    display: flex;
+    width: 350px;
+    margin-bottom: 10px;
+    align-items: center;
+    label {
+      margin-left: 5px;
+    }
+    span {
+      margin-left: 10px;
+    }
+  }
+}
